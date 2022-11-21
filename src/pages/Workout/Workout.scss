@@ -1,0 +1,29 @@
+.workouts_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  margin: 20px 40px;
+}
+
+.list-group {
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.list-group-item {
+  display: flex !important;
+  flex-direction: column;
+  text-align: center;
+  .badge {
+    margin: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+button {
+  width: 100px;
+  margin: 0 auto !important;
+  margin-top: 40px !important;
+}

@@ -1,0 +1,60 @@
+.registration_flex_wrapper{
+    display: flex;
+    justify-content: space-between;
+    .registration_flex_left {
+        margin-right: 50px;
+    }
+
+    .registration_sex_pick {
+        display: flex;
+        justify-content: space-between;
+        white-space: nowrap;
+
+        span {
+            margin-right: 10px;
+        }
+    }
+
+    .registration_params {
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .param_wrapper {
+        width: 120px;
+        white-space: nowrap;
+        .input-group {
+            width: 120px;
+        }
+    }
+}
+
+.opacity_text {
+    text-align: center;
+}
+
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+    background-color: #198754 !important;
+}
+
+.react-datepicker__header {
+    background-color: #19875475 !important;
+    color: white !important;
+}
+
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+    color: white !important;
+}
+
+.react-datepicker__day-name {
+    color: white !important;
+}
+
+.react-datepicker__navigation-icon::before {
+    border-color: white !important;
+}
+
+.select_label {
+    margin-top: 10px;
+}
