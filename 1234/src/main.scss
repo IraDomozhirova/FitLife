@@ -1,0 +1,66 @@
+$theme-colors: (
+    "primary": #198754,
+    "info": tomato,
+    "danger": rgb(175, 51, 23)
+);
+
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form_wrapper{
+    margin: 0 auto;
+    width: fit-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product_header {
+    font-family: 'Freehand', cursive;
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+}
+
+.bold_text {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.opacity_text {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #198754 !important;
+    box-shadow: 0px 0px 3px 3px rgba(25, 135, 84, 0.2) !important;
+}
+
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754
+}
+
+.input-group-text {
+    background-color: #198754;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+        color: inherit;
+    }
+}

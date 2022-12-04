@@ -1,0 +1,19 @@
+.form_wrapper{
+    margin: 0 auto;
+    width: fit-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span {
+    a{
+        color: #198754;
+        cursor: pointer;
+        font-weight: 600;
+        &:hover {
+            color: #198754;
+        }
+    }
+}
